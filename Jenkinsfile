@@ -15,7 +15,7 @@ pipeline {
             sh "npm install"
         }
     }
-    stage('Test') {
+    stage('react Test') {
         steps {
           // Run the ReactJS tests
           sh "npm test"
